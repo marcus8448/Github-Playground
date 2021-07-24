@@ -248,6 +248,6 @@ body:
       
       
         
-          required: truename: Bug Report
+          required: true
       
         
