@@ -1,0 +1,35 @@
+name: Bug Report
+description: File a bug report
+labels: ["status: triage", "type: bug"]
+body:
+  - type: markdown
+    attributes:
+      value: "Thanks for taking the time to submit a bug report!
+  - type: markdown
+    attributes:
+      value: "Please note that support for compiling the mod is not currently provided. For help with Galacticraft 4 and below, please use [TeamGalacticraft/Galacticraft-Legacy](https://github.com/TeamGalacticraft/Galacticraft-Legacy) or the [Galacticraft Central Discord](http://discord.galacticraftcentral.com/)"
+  - type: input
+    id: version
+    attributes:
+      label: Version Information
+      description: What version (commit hash, branch, or action run) of Galacticraft are you using?
+      placeholder: 4cb9a5d
+    validations:
+      required: true
+  - type: input
+    id: logs
+    attributes:
+      label: Log or Crash Report
+      description: >-
+        Please upload your log (latest.log or crash report) to [Github
+        Gist](https://gist.github.com/)
+      placeholder: 'https://gist.github.com/ghost/1a79a4d60de6718e8e5b326e338ae533'
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: 'Also tell us, what did you expect to happen?'
+      placeholder: Tell us what you see!
+      value: A bug happened!
