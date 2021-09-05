@@ -1,5 +1,5 @@
-name: Feature Request
-description: Request a feature. NOTE: Before submitting a feature request on GitHub, it is recommended to post it to the Galacticraft Central Discord to see if there is demand it first.
+name: "Feature Request"
+description: "Request a feature. NOTE: Before submitting a feature request on GitHub, it is recommended to post it to the Galacticraft Central Discord to see if there is demand it first."
 labels: ["status: triage", "type: feature"]
 body:
   - type: markdown
