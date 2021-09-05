@@ -6,15 +6,18 @@ body:
     attributes:
       value: "Please note that requests for more planets are not accepted at this time."
   - type: textarea
+    id: feature
+    attributes:
+      label: "Feature"
+      description: "Please explain the new feature in detail"
+      value: ""
+    validations:
+      required: true
+  - type: textarea
     id: rationale
     attributes:
       label: "Rationale"
-      description: "Please explain the new feature in detail"
-      value: |
-        My idea is to add...
-        This will be useful because...
-        Screenshot(s)?
-        ...
+      description: "Please explain why this feature would be useful, or why it is needed"
+      value: ""
     validations:
       required: true
-
