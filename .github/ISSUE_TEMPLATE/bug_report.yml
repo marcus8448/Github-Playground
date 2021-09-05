@@ -1,13 +1,23 @@
 name: Bug Report
 description: File a bug report
-labels: ["status: triage", "type: bug"]
+labels:
+  - 'status: triage'
+  - 'type: bug'
 body:
   - type: markdown
     attributes:
-      value: "Thanks for taking the time to submit a bug report!"
+      value: Thanks for taking the time to submit a bug report!
   - type: markdown
     attributes:
-      value: "Please note that support for compiling the mod is not currently provided.\nFor help with Galacticraft 4 and below, please use [TeamGalacticraft/Galacticraft-Legacy](https://github.com/TeamGalacticraft/Galacticraft-Legacy).\nFor general Galacticraft help and support visit the [Galacticraft Central Discord](http://discord.galacticraftcentral.com/)"
+      value: >-
+        Please note that support for compiling the mod is not currently
+        provided.
+
+        For help with Galacticraft 4 and below, please use
+        [TeamGalacticraft/Galacticraft-Legacy](https://github.com/TeamGalacticraft/Galacticraft-Legacy).
+
+        For general Galacticraft help and support visit the [Galacticraft
+        Central Discord](http://discord.galacticraftcentral.com/)
   - type: input
     id: version
     attributes:
@@ -26,17 +36,16 @@ body:
       placeholder: 'https://gist.github.com/ghost/1a79a4d60de6718e8e5b326e338ae533'
     validations:
       required: true
-- type: markdown
-  id: repro
-  attributes:
-    label: Reproduction steps
-    description: "How do you trigger this bug? Please walk us through it step by step."
-    value: |
-      1.
-      2.
-      3.
-      ...
-    render: bash
-  validations:
-    required: true
-
+  - type: textarea
+    id: repro
+    attributes:
+      label: Reproduction steps
+      description: How do you trigger this bug? Please walk us through it step by step.
+      value: |
+        1.
+        2.
+        3.
+        ...
+      render: bash
+    validations:
+      required: true
