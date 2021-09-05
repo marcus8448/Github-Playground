@@ -32,4 +32,8 @@ body:
       label: What happened?
       description: 'Also tell us, what did you expect to happen?'
       placeholder: Tell us what you see!
-      value: A bug happened!
+      value: |
+      1. Do this
+      2. Do that
+      3. ???
+      4. Crash
