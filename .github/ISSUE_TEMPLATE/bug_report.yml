@@ -18,6 +18,16 @@ body:
 
         For general Galacticraft help and support visit the [Galacticraft
         Central Discord](http://discord.galacticraftcentral.com/)
+  - type: dropdown
+    id: version
+    attributes:
+      label: Version
+      description: What version of our software are you running?
+      options:
+        - Fabric
+        - Forge (NYI)
+    validations:
+      required: true
   - type: input
     id: version
     attributes:
