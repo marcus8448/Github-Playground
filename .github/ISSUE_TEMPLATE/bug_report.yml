@@ -19,7 +19,7 @@ body:
         For general Galacticraft help and support visit the [Galacticraft
         Central Discord](http://discord.galacticraftcentral.com/)
   - type: dropdown
-    id: version
+    id: modloader
     attributes:
       label: Version
       description: What version of our software are you running?
