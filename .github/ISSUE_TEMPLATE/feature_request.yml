@@ -10,7 +10,7 @@ body:
     attributes:
       label: "Feature"
       description: "Please explain the new feature in detail"
-      value: ""
+      placeholder: "Add more lead tools! ..."
     validations:
       required: true
   - type: textarea
@@ -18,6 +18,6 @@ body:
     attributes:
       label: "Rationale"
       description: "Please explain why this feature would be useful, or why it is needed"
-      value: ""
+      placeholder: "There should be more reasons to travel to Venus. ..."
     validations:
       required: true
