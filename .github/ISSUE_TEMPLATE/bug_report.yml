@@ -26,7 +26,7 @@ body:
       placeholder: 'https://gist.github.com/ghost/1a79a4d60de6718e8e5b326e338ae533'
     validations:
       required: true
-- type: textarea
+- type: markdown
   id: repro
   attributes:
     label: Reproduction steps
