@@ -7,12 +7,12 @@ body:
       value: "Thanks for taking the time to submit a bug report!"
   - type: markdown
     attributes:
-      value: "Please note that support for compiling the mod is not currently provided.\nFor help with Galacticraft 4 and below, please use [TeamGalacticraft/Galacticraft-Legacy](https://github.com/TeamGalacticraft/Galacticraft-Legacy).\nFor general Galacticraft tech-support visit the [Galacticraft Central Discord](http://discord.galacticraftcentral.com/)"
+      value: "Please note that support for compiling the mod is not currently provided.\nFor help with Galacticraft 4 and below, please use [TeamGalacticraft/Galacticraft-Legacy](https://github.com/TeamGalacticraft/Galacticraft-Legacy).\nFor general Galacticraft help and support visit the [Galacticraft Central Discord](http://discord.galacticraftcentral.com/)"
   - type: input
     id: version
     attributes:
       label: Version Information
-      description: What version (commit hash, branch, or action run) of Galacticraft are you using?
+      description: What version (commit hash or branch) of Galacticraft are you using?
       placeholder: 4cb9a5d
     validations:
       required: true
