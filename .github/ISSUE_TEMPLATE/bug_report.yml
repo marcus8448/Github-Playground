@@ -4,7 +4,7 @@ labels: ["status: triage", "type: bug"]
 body:
   - type: markdown
     attributes:
-      value: "Thanks for taking the time to submit a bug report!
+      value: "Thanks for taking the time to submit a bug report!"
   - type: markdown
     attributes:
       value: "Please note that support for compiling the mod is not currently provided. For help with Galacticraft 4 and below, please use [TeamGalacticraft/Galacticraft-Legacy](https://github.com/TeamGalacticraft/Galacticraft-Legacy) or the [Galacticraft Central Discord](http://discord.galacticraftcentral.com/)"
