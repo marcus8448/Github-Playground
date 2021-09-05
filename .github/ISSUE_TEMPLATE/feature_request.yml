@@ -8,7 +8,7 @@ body:
   - type: textarea
     id: rationale
     attributes:
-      label: Reproduction steps
+      label: ""
       description: "Please explain the new feature in detail"
       value: |
         My idea is to add...
