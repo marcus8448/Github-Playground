@@ -10,19 +10,16 @@ body:
   - type: markdown
     attributes:
       value: >-
-        Please note that support for compiling the mod is not currently
-        provided.
+        Please note that support for compiling the mod is not currently provided.
 
-        For help with Galacticraft 4 and below, please use
-        [TeamGalacticraft/Galacticraft-Legacy](https://github.com/TeamGalacticraft/Galacticraft-Legacy).
+        For help with Galacticraft 4 and below, please use [TeamGalacticraft/Galacticraft-Legacy](https://github.com/TeamGalacticraft/Galacticraft-Legacy).
 
-        For general Galacticraft help and support visit the [Galacticraft
-        Central Discord](http://discord.galacticraftcentral.com/)
+        For general Galacticraft help and support visit the [Galacticraft Central Discord](http://discord.galacticraftcentral.com/)
   - type: dropdown
     id: modloader
     attributes:
       label: Mod loader
-      description: What version of our software are you running?
+      description: What modloader are you using?
       options:
         - Fabric
         - Forge (NYI)
