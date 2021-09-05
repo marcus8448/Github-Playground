@@ -6,7 +6,7 @@ body:
     attributes:
       value: "Please note that requests for more planets are not accepted at this time."
   - type: textarea
-  label: "Rationale"
+    label: "Rationale"
     id: rationale
     attributes:
       description: "Please explain the new feature in detail"
